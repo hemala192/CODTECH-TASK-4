@@ -1,3 +1,5 @@
+CODTECH-TASK 4 
+
 # Open the file
 file = open("netflix_titles.csv", "r", encoding="utf-8")
 
@@ -45,3 +47,27 @@ for year, value in sorted_years:
     count += 1
     if count == 5:
         break# CODTECH-TASK-4
+Description:
+
+Netflix Content Analysis is a simple Python-based project that reads and analyzes Netflix dataset using basic file handling techniques. It helps to understand the distribution of movies and TV shows, along with trends in release years.
+
+🎯 Objective:
+The main objective of this project is to:
+Analyze Netflix content data using Python
+Count and compare Movies and TV Shows
+Identify most common release years
+Learn basic data handling without using external libraries
+
+⭐ Key Features:
+Reads dataset using Python file handling
+Counts total Movies and TV Shows
+Analyzes release year frequency
+Displays top release years
+Fully implemented without any external libraries
+
+🧑‍💻 Technology Used:
+Python (Core programming)
+File Handling (open, read, loop)
+String operations (split, strip)
+Dictionary for data counting
+Basic sorting techniques
